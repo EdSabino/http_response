@@ -1,0 +1,15 @@
+name: http_response
+description: Treat the http responses in a idiomatic manner
+version: 1.0.0
+author: Eduardo Sabino da Silva Aikin <eduardoaikin@gmail.com>
+homepage: https://github.com/EdSabino/http_response
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  build: '>=0.12.0 <2.0.0'
+  source_gen: ^0.9.0
+
+dev_dependencies:
+  test: ^1.0.0
