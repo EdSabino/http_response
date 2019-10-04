@@ -1,3 +1,0 @@
-class ExceptionResponse {
-  const ExceptionResponse();
-}

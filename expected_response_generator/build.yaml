@@ -1,0 +1,15 @@
+targets:
+  $default:
+    builders:
+      expected_response_generator|expected_response:
+        enabled: true
+
+builders:
+  expected_response:
+    target: ":expected_response_generator"
+    import: "package:expected_response_generator/builder.dart"
+    builder_factories: ["generateHttpResponder"]
+    build_extensions: {".dart": [".expected_response_generator.g.part"]}
+    auto_apply: dependents
+    build_to: cache
+    applies_builders: ["source_gen|combining_builder"]
