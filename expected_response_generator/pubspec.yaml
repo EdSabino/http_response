@@ -1,6 +1,6 @@
 name: expected_response_generator
-description: Handles the generator of the expected_response package
-version: 1.0.0
+description: Handles the generator of the expected_response package, must be used aside with it.
+version: 1.0.0+1
 author: Eduardo Sabino da Silva Aikin <eduardoaikin@gmail.com>
 homepage: https://github.com/EdSabino/http_response
 
@@ -11,8 +11,7 @@ dependencies:
   analyzer: ^0.38.2
   build: '>=0.12.0 <2.0.0'
   source_gen: ^0.9.0
-  expected_response: 
-    path: ../expected_response/
+  expected_response: ^1.0.0
   
 dev_dependencies:
   build_test: ^0.10.0

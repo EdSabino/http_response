@@ -17,3 +17,10 @@
 - Documented the helper classes 
 - Create README
 - Add LICENSE
+### 1.0.0+1
+
+- Change the description
+
+### 1.0.0+2
+
+- Change the changelog

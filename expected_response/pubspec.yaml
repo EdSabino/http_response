@@ -1,6 +1,6 @@
 name: expected_response
-description: Treat the http responses in a idiomatic manner
-version: 1.0.0
+description: Treat the http responses in a idiomatic manner, based on code generation, to DRY your code
+version: 1.0.0+1
 author: Eduardo Sabino da Silva Aikin <eduardoaikin@gmail.com>
 homepage: https://github.com/EdSabino/http_response
 
